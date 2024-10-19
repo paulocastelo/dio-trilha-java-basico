@@ -42,6 +42,55 @@ public class Operadores {
         int idade = 18;
         System.out.println("Nome: " + nome + " " + sobrenome + " Idade: " + idade);
         
+
+        //Operador ternário
+        // Explicação: Se a idade for maior ou igual a 18, então a pessoa é adulta,
+        //caso contrário, é menor de idade
+        int idade2 = 20;
+        String status = (idade2 >= 18) ? "Adulto" : "Menor de idade";
+        System.out.println("Status: " + status);
+        
+        //Mesmo exemplo, porém com if e else
+        if(idade2 >= 18){
+            status = "Adulto";
+        }else{
+            status = "Menor de idade";
+        }
+
+        //Operador de atribuição
+        int numero = 10;
+        numero += 5;
+        System.out.println("Número: " + numero);
+        numero -= 5;
+        System.out.println("Número: " + numero);
+        numero *= 5;
+        System.out.println("Número: " + numero);
+        numero /= 5;
+        System.out.println("Número: " + numero);
+        numero %= 5;
+        System.out.println("Número: " + numero);
+
+        //Operadores relacionais
+        int num3 = 10;
+        int num4 = 20;
+        System.out.println("num3 == num4: " + (num3 == num4));
+        System.out.println("num3 != num4: " + (num3 != num4));
+        System.out.println("num3 > num4: " + (num3 > num4));
+        System.out.println("num3 < num4: " + (num3 < num4));
+        System.out.println("num3 >= num4: " + (num3 >= num4));
+        System.out.println("num3 <= num4: " + (num3 <= num4));
+
+        boolean condicao1 = true;
+        boolean condicao2 = false;
+        System.out.println("condicao1 && condicao2: " + (condicao1 && condicao2));
+        System.out.println("condicao1 || condicao2: " + (condicao1 || condicao2));
+        System.out.println("!condicao1: " + (!condicao1));
+
+        
+        
+
+
+
     }
     
 }
