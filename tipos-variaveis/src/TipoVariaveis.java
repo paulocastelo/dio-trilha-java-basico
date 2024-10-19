@@ -66,51 +66,5 @@ public class TipoVariaveis {
         final float ALTURA = 1.80f;
         System.out.println("Altura: " + ALTURA);
 
-        //Some examples of operations with variables
-        int x = 10;
-        int y = 20;
-        int z = x + y;
-        //Printing the result of the sum of x + y
-        System.out.println("Soma de x + y = " + z);
-
-        //Subtraction
-        z = x - y;
-        System.out.println("Subtração de x - y = " + z);
-
-        //Multiplication
-        z = x * y;
-        System.out.println("Multiplicação de x * y = " + z);
-
-        //Division
-        z = x / y;
-        System.out.println("Divisão de x / y = " + z);
-
-        //Modulus
-        z = x % y;
-        System.out.println("Resto da divisão de x % y = " + z);
-
-        //Increment
-        x++;
-        System.out.println("Incremento de x = " + x);
-
-        //Decrement
-        x--;
-        System.out.println("Decremento de x = " + x);
-        
-        //Comparing operators
-        //Greater than
-        System.out.println("x > y: " + (x > y));
-        //Less than
-        System.out.println("x < y: " + (x < y));
-        //Greater than or equal to
-        System.out.println("x >= y: " + (x >= y));
-        //Less than or equal to
-        System.out.println("x <= y: " + (x <= y));
-        //Equal to
-        System.out.println("x == y: " + (x == y));
-        //Different from
-        System.out.println("x != y: " + (x != y));
-        
-
     }
 }
